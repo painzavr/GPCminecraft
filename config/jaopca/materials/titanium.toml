@@ -1,0 +1,27 @@
+
+[general]
+	#The alternative names of this material.
+	alternativeNames = []
+	#The byproducts of this material.
+	extras = []
+	#Is the storage block of this material small (2x2).
+	isSmallStorageBlock = false
+	#The module blacklist of this material.
+	moduleBlacklist = []
+	#Should items of this material have the enchanted glow.
+	hasEffect = false
+	#The model type of the material.
+	modelType = "metallic"
+
+[crossroads]
+	#The byproduct material to output in Crossroads' Millstone.
+	byproduct = "minecraft:sand"
+
+[ic2]
+	#The multiplier of this material's recipes in the refinery with respect to gold.
+	multiplier = 2.0
+
+[mekanism]
+	#The default base to use in Mekanism's Combiner to recreate ores.
+	oreBase = "#forge:cobblestone/normal"
+

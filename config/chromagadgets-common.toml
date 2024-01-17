@@ -1,0 +1,24 @@
+
+[GadgetSettings]
+
+	[GadgetSettings.MossyMirrorSettings]
+		#The percentage of the player's max health dealt when using the Mossy Mirror.
+		#Range: 0.0 ~ 1.0
+		mossyMirrorDamage = 0.25
+		#The amplifier for the Weakness effect applied when using the Mossy Mirror.
+		#Range: 0 ~ 255
+		mossyMirrorWeaknessAmplifier = 1
+		#The duration for the Weakness effect applied when using the Mossy Mirror.
+		#Range: > 0
+		mossyMirrorWeaknessDuration = 2400
+
+[EnchantmentSettings]
+	#The "default" friction of a block. This is used by the Friction enchantment as the maximum friction for all blocks the player with the enchantment stands on. Higher values mean more slippery.
+	#Range: 0.01 ~ 1.0
+	defaultFriction = 0.6
+	#The friction for slippery blocks. This is used by the Curse of Slipperiness as the minimum friction value for all blocks the player with the curse stands on. Default value is equivalent to the friction of ice.
+	#Range: 0.01 ~ 1.0
+	slipperyFriction = 0.98
+	#Whether the Curse of Slipperiness should ignore blocks with a speedFactor greater than 1. This prevents a bug relating to achieving huge amounts of speed, but can be turned off for the purpose of fun. I will not help with issues relating to the Curse of Slipperiness if this is set to false.
+	ignoreSpeedyBlocks = true
+

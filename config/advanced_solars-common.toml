@@ -1,0 +1,34 @@
+
+[PowerGeneration]
+	#Base energy generation multiplier values for advanced solar - increase them for higher yields.
+	#Range: 0.0 ~ 4.0
+	ADVANCED_SOLAR_GENERATION_MULTIPLIER = 1.0
+	#Base energy generation multiplier values for hybrid solar - increase them for higher yields.
+	#Range: 0.0 ~ 4.0
+	HYBRID_SOLAR_GENERATION_MULTIPLIER = 1.0
+	#Base energy generation multiplier values for ultimate hybrid solar - increase them for higher yields.
+	#Range: 0.0 ~ 4.0
+	ULTIMATE_HYBRID_SOLAR_GENERATION_MULTIPLIER = 1.0
+
+[PowerValues]
+	#Range: > 1
+	ADVANCED_SOLAR_HELMET_STORAGE = 100000
+	#Range: > 1
+	HYBRID_SOLAR_HELMET_STORAGE = 1000000
+	#Range: > 1
+	ULTIMATE_HYBRID_SOLAR_HELMET_STORAGE = 10000000
+	#Range: > 1
+	ADVANCED_SOLAR_HELMET_TRANSFER = 100
+	#Range: > 1
+	HYBRID_SOLAR_HELMET_TRANSFER = 1000
+	#Range: > 1
+	ULTIMATE_HYBRID_SOLAR_HELMET_TRANSFER = 4000
+
+[Misc]
+	#Determines what ingot is used in the center of the irradiant uranium recipe
+	#If the selected option does not exist it will fall back to the default choice EnderPearl
+	#Items associated with values: ENDERPEARL_URANIUM: Ic2c enderpearl enriched uranium,
+	#URANIUM: #forge:ingots/uranium, URANIUM235: #forge:ingots/uranium235, URANIUM233: #forge:ingots/uranium235
+	#Allowed Values: ENDERPEARL_URANIUM, URANIUM, URANIUM235, URANIUM233
+	INGOT_IN_IRRADIANT_URANIUM = "ENDERPEARL_URANIUM"
+

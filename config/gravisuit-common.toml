@@ -1,0 +1,53 @@
+
+[PowerValues]
+
+	[PowerValues.Storage]
+		#Range: > 1
+		ADVANCED_ELECTRIC_JETPACK_STORAGE = 200000
+		#Range: > 1
+		ADVANCED_NUCLEAR_JETPACK_STORAGE = 200000
+		#Range: > 1
+		ADVANCED_LAPPACK_STORAGE = 600000
+		#Range: > 1
+		ULTIMATE_LAPPACK_STORAGE = 10000000
+		#Range: > 1
+		GRAVITATION_JETPACK_STORAGE = 500000
+		#Range: > 1
+		NUCLEAR_GRAVITATION_JETPACK_STORAGE = 500000
+		#Range: > 1
+		GRAVITOOL_STORAGE = 50000
+		#Range: > 1
+		VAJRA_STORAGE = 3000000
+		#Range: > 1
+		RELOCATOR_STORAGE = 50000000
+
+	[PowerValues.Transfer]
+		#Range: > 1
+		ADVANCED_ELECTRIC_JETPACK_TRANSFER = 500
+		#Range: > 1
+		ADVANCED_LAPPACK_TRANSFER = 500
+		#Range: > 1
+		ULTIMATE_LAPPACK_TRANSFER = 4000
+		#Range: > 1
+		GRAVITATION_JETPACK_TRANSFER = 1000
+		#Range: > 1
+		GRAVITOOL_TRANSFER = 400
+		#Range: > 1
+		VAJRA_TRANSFER = 1000
+		#Range: > 1
+		RELOCATOR_TRANSFER = 25000
+
+[Misc]
+	#Enables the Advanced Electric jetpack charging items. Default: false
+	ADVANCED_JETPACK_PROVIDE_ENERGY = false
+	#Enables the Advanced Nuclear jetpack charging items. Default: true
+	ADVANCED_N_JETPACK_PROVIDE_ENERGY = true
+	#Enables the Compacted jetpack charging items. Default: false
+	COMPACTEd_JETPACK_PROVIDE_ENERGY = false
+	#Enables the Compacted Nuclear jetpack charging items. Default: true
+	COMPACTEd_N_JETPACK_PROVIDE_ENERGY = true
+	#Enables the Gravitation jetpack charging items. Default: false
+	GRAVITATION_JETPACK_PROVIDE_ENERGY = false
+	#Enables the Gravitation Nuclear jetpack charging items. Default: true
+	GRAVITATION_N_JETPACK_PROVIDE_ENERGY = true
+
